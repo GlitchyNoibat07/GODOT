@@ -1,0 +1,87 @@
+[gd_scene load_steps=4 format=3 uid="uid://b5366srwlvkdg"]
+
+[ext_resource type="Texture2D" uid="uid://v5ba4waqprhv" path="res://Milky_Way_Resonance_Illustration.webp" id="1_16t5l"]
+[ext_resource type="Texture2D" uid="uid://drss127yekv5v" path="res://Strawberry-cookie.webp" id="2_ijtpq"]
+[ext_resource type="Texture2D" uid="uid://bhs22gliauv2s" path="res://Snapdragon_illustration.webp" id="3_trg1e"]
+
+[node name="Pantalla inicial" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = 1.0
+offset_top = -4.0
+offset_right = 1198.0
+offset_bottom = 736.0
+color = Color(0.99265, 0.601509, 0.790615, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 316.0
+offset_top = 37.0
+offset_right = 880.0
+offset_bottom = 122.0
+theme_override_colors/font_color = Color(0.637938, 0.404042, 0.858114, 1)
+theme_override_font_sizes/font_size = 50
+text = "CRK MEMORY"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = -103.0
+offset_top = 319.0
+offset_right = 461.0
+offset_bottom = 404.0
+theme_override_colors/font_color = Color(0.637938, 0.404042, 0.858114, 1)
+theme_override_font_sizes/font_size = 50
+text = "2*2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 685.0
+offset_top = 308.0
+offset_right = 1249.0
+offset_bottom = 393.0
+theme_override_colors/font_color = Color(0.637938, 0.404042, 0.858114, 1)
+theme_override_font_sizes/font_size = 50
+text = "4*4"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 344.0
+offset_top = 321.0
+offset_right = 908.0
+offset_bottom = 406.0
+theme_override_colors/font_color = Color(0.637938, 0.404042, 0.858114, 1)
+theme_override_font_sizes/font_size = 50
+text = "3*3"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TextureButton" type="TextureButton" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.051
+anchor_bottom = 0.054
+offset_left = 75.0
+offset_top = 323.0
+offset_right = 212.953
+offset_bottom = 357.04
+
+[node name="MilkyWayResonanceIllustration" type="Sprite2D" parent="."]
+position = Vector2(971, 533)
+scale = Vector2(0.385106, 0.382927)
+texture = ExtResource("1_16t5l")
+
+[node name="Strawberry-cookie" type="Sprite2D" parent="."]
+position = Vector2(188, 539)
+scale = Vector2(0.385105, 0.28791)
+texture = ExtResource("2_ijtpq")
+
+[node name="SnapdragonIllustration" type="Sprite2D" parent="."]
+position = Vector2(581, 540)
+scale = Vector2(0.37202, 0.313356)
+texture = ExtResource("3_trg1e")
